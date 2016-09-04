@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1030FDB91D7C86BD00304844 /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1030FDB81D7C86BD00304844 /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1030FDBD1D7C86BD00304844 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 1030FDBC1D7C86BD00304844 /* Stickers.xcstickers */; };
+		1030FDBE1D7C86BD00304844 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 1030FDBC1D7C86BD00304844 /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1030FDBA1D7C86BD00304844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1030FDAE1D7C86BC00304844 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1030FDB71D7C86BD00304844;
+			remoteInfo = StickerPackExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1030FDC41D7C86BD00304844 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1030FDB91D7C86BD00304844 /* StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1030FDB41D7C86BC00304844 /* Googly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Googly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1030FDB81D7C86BD00304844 /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1030FDBC1D7C86BD00304844 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1030FDAD1D7C86BC00304844 = {
+			isa = PBXGroup;
+			children = (
+				1030FDBC1D7C86BD00304844 /* Stickers.xcstickers */,
+				1030FDB51D7C86BC00304844 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1030FDB51D7C86BC00304844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1030FDB41D7C86BC00304844 /* Googly.app */,
+				1030FDB81D7C86BD00304844 /* StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1030FDB31D7C86BC00304844 /* Googly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1030FDC51D7C86BD00304844 /* Build configuration list for PBXNativeTarget "Googly" */;
+			buildPhases = (
+				1030FDB21D7C86BC00304844 /* Resources */,
+				1030FDC41D7C86BD00304844 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1030FDBB1D7C86BD00304844 /* PBXTargetDependency */,
+			);
+			name = Googly;
+			productName = Googly;
+			productReference = 1030FDB41D7C86BC00304844 /* Googly.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		1030FDB71D7C86BD00304844 /* StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1030FDC11D7C86BD00304844 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */;
+			buildPhases = (
+				1030FDB61D7C86BD00304844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickerPackExtension;
+			productName = StickerPackExtension;
+			productReference = 1030FDB81D7C86BD00304844 /* StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1030FDAE1D7C86BC00304844 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Efrain Ayllon";
+				TargetAttributes = {
+					1030FDB31D7C86BC00304844 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3V8KXS5ZB4;
+						ProvisioningStyle = Automatic;
+					};
+					1030FDB71D7C86BD00304844 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3V8KXS5ZB4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1030FDB11D7C86BC00304844 /* Build configuration list for PBXProject "Googly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1030FDAD1D7C86BC00304844;
+			productRefGroup = 1030FDB51D7C86BC00304844 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1030FDB31D7C86BC00304844 /* Googly */,
+				1030FDB71D7C86BD00304844 /* StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1030FDB21D7C86BC00304844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1030FDBE1D7C86BD00304844 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1030FDB61D7C86BD00304844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1030FDBD1D7C86BD00304844 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1030FDBB1D7C86BD00304844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1030FDB71D7C86BD00304844 /* StickerPackExtension */;
+			targetProxy = 1030FDBA1D7C86BD00304844 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1030FDBF1D7C86BD00304844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1030FDC01D7C86BD00304844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1030FDC21D7C86BD00304844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 3V8KXS5ZB4;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.earoa.Googly.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1030FDC31D7C86BD00304844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 3V8KXS5ZB4;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.earoa.Googly.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1030FDC61D7C86BD00304844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 3V8KXS5ZB4;
+				INFOPLIST_FILE = Googly/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.earoa.Googly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1030FDC71D7C86BD00304844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 3V8KXS5ZB4;
+				INFOPLIST_FILE = Googly/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.earoa.Googly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1030FDB11D7C86BC00304844 /* Build configuration list for PBXProject "Googly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1030FDBF1D7C86BD00304844 /* Debug */,
+				1030FDC01D7C86BD00304844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1030FDC11D7C86BD00304844 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1030FDC21D7C86BD00304844 /* Debug */,
+				1030FDC31D7C86BD00304844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1030FDC51D7C86BD00304844 /* Build configuration list for PBXNativeTarget "Googly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1030FDC61D7C86BD00304844 /* Debug */,
+				1030FDC71D7C86BD00304844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1030FDAE1D7C86BC00304844 /* Project object */;
+}
