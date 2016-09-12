@@ -1,4 +1,54 @@
 {
+  "stickers" : [
+    {
+      "filename" : "down.sticker"
+    },
+    {
+      "filename" : "left-center.sticker"
+    },
+    {
+      "filename" : "left-top.sticker"
+    },
+    {
+      "filename" : "right-bottom.sticker"
+    },
+    {
+      "filename" : "right-center.sticker"
+    },
+    {
+      "filename" : "up.sticker"
+    },
+    {
+      "filename" : "all_over.sticker"
+    },
+    {
+      "filename" : "around_cc.sticker"
+    },
+    {
+      "filename" : "around.sticker"
+    },
+    {
+      "filename" : "bottom.sticker"
+    },
+    {
+      "filename" : "bounce.sticker"
+    },
+    {
+      "filename" : "all_over_sm.sticker"
+    },
+    {
+      "filename" : "around_cc_sm.sticker"
+    },
+    {
+      "filename" : "around_sm.sticker"
+    },
+    {
+      "filename" : "bottom_sm.sticker"
+    },
+    {
+      "filename" : "bounce_sm.sticker"
+    }
+  ],
   "info" : {
     "version" : 1,
     "author" : "xcode"
