@@ -1,7 +1,13 @@
 {
   "stickers" : [
     {
+      "filename" : "center.sticker"
+    },
+    {
       "filename" : "down.sticker"
+    },
+    {
+      "filename" : "left-bottom.sticker"
     },
     {
       "filename" : "left-center.sticker"
@@ -14,6 +20,9 @@
     },
     {
       "filename" : "right-center.sticker"
+    },
+    {
+      "filename" : "right-top.sticker"
     },
     {
       "filename" : "up.sticker"
@@ -34,10 +43,10 @@
       "filename" : "bounce.sticker"
     },
     {
-      "filename" : "all_over_sm.sticker"
+      "filename" : "around_cc_sm.sticker"
     },
     {
-      "filename" : "around_cc_sm.sticker"
+      "filename" : "all_over_sm.sticker"
     },
     {
       "filename" : "around_sm.sticker"

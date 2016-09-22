@@ -317,6 +317,7 @@
 				1030FDC31D7C86BD00304844 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1030FDC51D7C86BD00304844 /* Build configuration list for PBXNativeTarget "Googly" */ = {
 			isa = XCConfigurationList;
@@ -325,6 +326,7 @@
 				1030FDC71D7C86BD00304844 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
